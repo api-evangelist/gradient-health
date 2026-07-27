@@ -1,7 +1,27 @@
 aid: gradient-health
 name: Gradient Health
-description: Gradient Health is a company surfaced as a portfolio company of techstars and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Gradient Health is a multimodal medical data company that accelerates medical
+  AI development by giving AI developers secure, self-service access to diverse,
+  de-identified medical imaging data. Its Atlas platform lets teams search a
+  catalog of 20M+ de-identified imaging studies across hundreds of DICOM tags
+  with longitudinal, patient-level search, construct representative cohorts, and
+  export full DICOM datasets. Gradient Health sources, de-identifies, curates,
+  and delivers data from a network of healthcare data partners, and is HIPAA
+  compliant and AICPA SOC 2 certified. First-party open-source tooling supports
+  cloud-optimized DICOM storage, parsing, and TensorFlow decode operations.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/6a0efc3b406bc66f7ce38ceb/6a23f11afb10f94703c4471c_favicon.png
 url: https://raw.githubusercontent.com/api-evangelist/gradient-health/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Medical Imaging
+- Healthcare Data
+- Health AI
+- DICOM
+- Machine Learning
+- Data Platform
+- Radiology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +48,42 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/gradient-health-domain-security.yml
 - type: Website
-  url: https://gradientai.com/
+  url: https://gradienthealth.io/
+- type: DeveloperPortal
+  url: https://docs.gradienthealth.io/
+- type: Documentation
+  url: https://docs.gradienthealth.io/gradient-atlas/
+- type: GettingStarted
+  url: https://docs.gradienthealth.io/gradient-atlas/getting-started/orienting-to-atlas-search.md
+- type: Blog
+  url: https://gradienthealth.io/blog
+- type: SignUp
+  url: https://atlas.gradienthealth.io/sign-in
+- type: Support
+  url: https://docs.gradienthealth.io/gradient-atlas/community/feedback-and-support.md
+- type: TermsOfService
+  url: https://gradienthealth.io/terms-of-use
+- type: PrivacyPolicy
+  url: https://gradienthealth.io/privacy-policy
+- type: GitHubOrganization
+  url: https://github.com/gradienthealth
+- type: LLMsTxt
+  url: llms/gradient-health-llms.txt
+- type: Packages
+  url: packages/gradient-health-packages.yml
+- type: SDKs
+  url: packages/gradient-health-packages.yml
+- type: Conformance
+  url: conformance/gradient-health-conformance.yml
+- type: Compliance
+  url: conformance/gradient-health-conformance.yml
+- type: WellKnown
+  url: well-known/gradient-health-well-known.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

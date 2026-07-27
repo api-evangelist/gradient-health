@@ -1,0 +1,34 @@
+generated: '2026-07-19'
+method: searched
+source: https://gradienthealth.io/about-us
+notes: >-
+  Gradient Health publishes its compliance posture on its marketing site
+  ("HIPAA compliant" and "AICPA SOC 2 certified"). No public OpenAPI is
+  available, so cross-cutting API standards (OAuth2/OIDC/RFC9457/pagination)
+  cannot be derived and are marked unknown rather than asserted.
+standards:
+  - id: hipaa
+    conforms: true
+    evidence: "'HIPAA compliant' certification badge published on gradienthealth.io"
+  - id: soc2
+    conforms: true
+    evidence: "'AICPA SOC 2 certified' certification badge published on gradienthealth.io"
+  - id: iso-27001
+    conforms: false
+  - id: fhir-r4
+    conforms: false
+    evidence: "Data is delivered as DICOM, not FHIR; no FHIR API surface published."
+  - id: dicom
+    conforms: true
+    evidence: "Core data format is DICOM; first-party DICOM parsing/read-write libraries published."
+  - id: oauth2
+    conforms: unknown
+    evidence: "No public OpenAPI or documented auth scheme to confirm."
+  - id: rfc9457-problem-details
+    conforms: unknown
+    evidence: "No public OpenAPI to inspect error responses."
+compliance_program:
+  certifications:
+    - HIPAA
+    - SOC 2
+  page: https://gradienthealth.io/about-us

@@ -1,0 +1,13 @@
+# Gradient Atlas
+
+## Gradient Atlas
+
+- [Gradient Atlas is...](https://docs.gradienthealth.io/gradient-atlas/gradient-atlas-is....md): Gradient Atlas is the one step tool to create medical cohorts.
+- [Orienting To Atlas Search](https://docs.gradienthealth.io/gradient-atlas/getting-started/orienting-to-atlas-search.md): Walk through screenshots of Atlas' user interface (UI).
+- [Constructing a Query](https://docs.gradienthealth.io/gradient-atlas/getting-started/constructing-a-query.md): Using search in Atlas requires a structured query.
+- [Creating a Project](https://docs.gradienthealth.io/gradient-atlas/getting-started/creating-a-project.md): How to create orders and what happens after you submit your orders.
+- [Submission and Data Delivery](https://docs.gradienthealth.io/gradient-atlas/getting-started/submission-and-data-delivery.md)
+- [Collaboration with Organizations](https://docs.gradienthealth.io/gradient-atlas/community/collaboration-with-organizations.md): Work within departments, labs and research communities on the same projects!
+- [Feedback and Support](https://docs.gradienthealth.io/gradient-atlas/community/feedback-and-support.md): If you would like to suggest a new feature, please use this page.
+- [Privacy Policy](https://docs.gradienthealth.io/gradient-atlas/legal/privacy-policy.md): Updated December 2, 2023. The policy will be updated at least once every 12 months and record the last review or update date.
+- [Terms of Use](https://docs.gradienthealth.io/gradient-atlas/legal/terms-of-use.md)

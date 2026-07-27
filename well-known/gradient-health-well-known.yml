@@ -1,0 +1,18 @@
+generated: '2026-07-19'
+method: probed
+source: live probe of /.well-known/ on Gradient Health hosts
+host: https://gradienthealth.io
+notes: >-
+  No /.well-known/ discovery documents are published. api.gradienthealth.io does
+  not respond on its root over HTTPS (connection timeout); atlas.gradienthealth.io
+  redirects to a sign-in wall. Absence recorded as valid data.
+documents:
+  - path: /.well-known/security.txt
+    host: gradienthealth.io
+    status: 404
+  - path: /.well-known/openid-configuration
+    host: gradienthealth.io
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    host: gradienthealth.io
+    status: 404

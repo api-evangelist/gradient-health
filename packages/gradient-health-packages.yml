@@ -1,0 +1,42 @@
+generated: '2026-07-19'
+method: searched
+source: https://pypi.org/user/gradienthealth/ + https://github.com/gradienthealth
+notes: >-
+  First-party open-source client tooling for working with the DICOM medical
+  imaging data Gradient Health delivers via its Atlas platform. These are data
+  libraries (cloud-optimized DICOM read/write, TensorFlow decode ops), not a
+  generated REST API SDK — Gradient Health does not publish a public REST SDK.
+packages:
+  - language: python
+    registry: pypi
+    name: cloud-optimized-dicom
+    version: 2.0.3
+    url: https://pypi.org/project/cloud-optimized-dicom/
+    source: https://github.com/gradienthealth/cloud_optimized_dicom
+    install: pip install cloud-optimized-dicom
+    summary: A library for efficiently storing and interacting with DICOM files in the cloud.
+    official: true
+  - language: python
+    registry: pypi
+    name: gradient-decode-dicom
+    version: 0.0.5
+    url: https://pypi.org/project/gradient-decode-dicom/
+    source: https://github.com/gradienthealth/gradient_decode_dicom
+    install: pip install gradient-decode-dicom
+    summary: Gradient Decode DICOM is a DICOM image and tag reader op for TensorFlow.
+    official: true
+  - language: go
+    registry: github
+    name: dicom
+    url: https://github.com/gradienthealth/dicom
+    install: go get github.com/gradienthealth/dicom
+    summary: High Performance DICOM Medical Image Parser in Go.
+    official: true
+    published_registry: false
+  - language: typescript
+    registry: github
+    name: cod-download
+    url: https://github.com/gradienthealth/cod-download
+    summary: Tool to download study DICOM files to local folders (cloud-optimized DICOM).
+    official: true
+    published_registry: false
