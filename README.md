@@ -64,6 +64,87 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Gradient Health is a company surfaced as a portfolio company of techstars and added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+Gradient Health is a multimodal medical data company that accelerates medical AI development by giving AI developers secure, self-service access to diverse, de-identified medical imaging data. Its Atlas platform lets teams search a catalog of 20M+ de-identified imaging studies across hundreds of DICOM tags with longitudinal, patient-level search, construct representative cohorts, and export full DICOM datasets. Gradient Health sources, de-identifies, curates, and delivers data from a network of healthcare data partners, and is HIPAA compliant and AICPA SOC 2 certified. First-party open-source tooling supports cloud-optimized DICOM storage, parsing, and TensorFlow decode operations.
 
-Backed by: techstars — https://gradienthealth.io/
+**Areas:** Company · Medical Imaging · Healthcare Data · Health AI · DICOM · Machine Learning · Data Platform · Radiology
+
+## Gradient Health on APIs.io
+
+Everything profiled for Gradient Health is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/gradient-health/](https://apis.io/providers/gradient-health/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Gradient Health Domain Security](https://apis.io/security/gradient-health/gradient-health-domain-security/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://gradienthealth.io/)
+- [Documentation](https://docs.gradienthealth.io/gradient-atlas/)
+- [Getting started](https://docs.gradienthealth.io/gradient-atlas/getting-started/orienting-to-atlas-search.md)
+- [Sign up](https://atlas.gradienthealth.io/sign-in)
+- [Support](https://docs.gradienthealth.io/gradient-atlas/community/feedback-and-support.md)
+- [Blog](https://gradienthealth.io/blog)
+- [Terms of service](https://gradienthealth.io/terms-of-use)
+- [Privacy policy](https://gradienthealth.io/privacy-policy)
+- [GitHub](https://github.com/gradienthealth)
+
+## API Evangelist rating
+
+**Kin Score 24.6** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 55.4 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 28.9 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 23.5** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/gradient-health/](https://apis.io/providers/gradient-health/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Gradient Health: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/gradient-health/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
